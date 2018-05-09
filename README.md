@@ -42,7 +42,8 @@ A basic react native app with [`react-native-firebase`](https://github.com/inver
 - 4a) add `local.properties` for android sdk location
 - 4b) app `build.gradle`
 
-`defaultConfig {
+```
+defaultConfig {
     applicationId "com.invertase.rnfirebasestarter"
     minSdkVersion 16
     targetSdkVersion 26
@@ -75,13 +76,14 @@ implementation "com.google.firebase:firebase-firestore:15.0.0"
 implementation "com.google.firebase:firebase-messaging:15.0.2"
 implementation "com.google.firebase:firebase-perf:15.0.0"
 implementation "com.google.firebase:firebase-storage:15.0.0"
-`
+```
 
 
 
 - 4c) android build.gradle
 
-`buildscript {
+```
+buildscript {
     repositories {
         jcenter()
         google()   //CHECK THIS
@@ -97,7 +99,7 @@ implementation "com.google.firebase:firebase-storage:15.0.0"
         // in the individual module build.gradle files
     }
 }
-`
+```
 
 
 ####5 YARN START
@@ -106,7 +108,7 @@ implementation "com.google.firebase:firebase-storage:15.0.0"
 
 For iOS
 
-#####1 make sure you ran “pods install”
+- 1 make sure you ran “pods install”
 
 
 MORE HELP
@@ -142,4 +144,5 @@ def DEFAULT_SUPPORT_LIBRARY_VERSION         = "26.1.0" //CHECK THIS
 
 ## Note
 
-This is initially forked from RNFirebase then added with basic needed libraries.
+- This is initially forked from RNFirebase then added with basic needed libraries.
+- Charminar icon took from (https://dribbble.com/vipintoshniwal) will be removed if not willing.
