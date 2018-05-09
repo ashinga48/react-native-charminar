@@ -3,7 +3,7 @@
 ![react-native-charminar](/images/2018/05/react-native-charminar.png)
 
 
-## ![VIDEO TUTORIAL](https://youtu.be/lM73Ip1_j44)
+## [VIDEO TUTORIAL](https://youtu.be/lM73Ip1_j44)
 
  - RNFirebase ( All features from RN Firebase )
  - WIX ui lib
